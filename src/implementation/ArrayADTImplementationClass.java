@@ -91,6 +91,10 @@ public class ArrayADTImplementationClass implements ArrayADTInterface {
         return response;
     }
 
+    public int getEnd() {
+        return end;
+    }
+
     @Override
     public int[] sort() {
         // cloning original array
