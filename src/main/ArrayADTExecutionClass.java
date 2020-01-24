@@ -40,12 +40,14 @@ public class ArrayADTExecutionClass {
         int[] arr = object.sort();
         System.out.println("Printing Elements....");
         for (int i = 0; i < object.getEnd(); i++) {
-               System.out.print(arr[i]);
-                if(i != object.getEnd() -1){
-                    System.out.print(",");
-                }
+            System.out.print(arr[i]);
+            if (i != object.getEnd() - 1) {
+                System.out.print(",");
             }
-            System.out.println();
+        }
+        System.out.println();
+        System.out.println("printing original array");
+        object.traverse();
 
 
     }
